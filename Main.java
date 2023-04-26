@@ -29,14 +29,15 @@ class Main {
         String a = scanner.nextLine();
 
         System.out.println("Podaj nazwisko: ");
-       
         String c = scanner.nextLine();
          
         System.out.println("Podaj wiek: ");
-
         int b = scanner.nextInt();
-
-        s.addStudent(new Student(name,c, b));
+         
+        System.out.println("Podaj Adres: ");
+        String d = scanner.next();
+         
+        s.addStudent(new Student(a,c,b,d));
          
       break;
       case 2:
